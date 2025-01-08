@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: var(--background);
+    font-family: "Lexend", serif;
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 400;
+}
