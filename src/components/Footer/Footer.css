@@ -9,6 +9,11 @@
     border-top-left-radius: 64px;
     border-top-right-radius: 64px;
 }
+.pages-link{
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 .footer-content{
     width: 1640px;
     height: 66px;
@@ -30,6 +35,27 @@
     list-style: none;
     height: 100%;
     align-items: end;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-content-pages-item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.pages-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--color-footer-text-hover);
+    transition: width 0.3s ease;
+}
+.footer-content-social-text{
+    font-size: 16px;
+    font-weight: 400;
 }
 .footer-content-social-items{
     display: flex;
@@ -49,6 +75,12 @@
 @media (min-width: 1025px) {
     .footer-content-social-item:hover{
         background-image: url('/socials/social-bg-hover.svg');
+    }
+    .pages-link:hover{
+        color: var(--color-footer-text-hover);
+    }
+    .pages-link:hover::after {
+        width: 100%;
     }
 }
 /* Адаптируем под разрешение от 1400 до 1600px */

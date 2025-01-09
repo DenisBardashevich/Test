@@ -12,19 +12,19 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-content">
                 <ul className="footer-content-pages-items">
-                    <li className="footer-content-pages-item">Terms & Conditions</li>
-                    <li className="footer-content-pages-item">Cookies</li>
-                    <li className="footer-content-pages-item">Contacts</li>
+                    <li className="footer-content-pages-item"><a className="pages-link" href="#">Terms & Conditions</a></li>
+                    <li className="footer-content-pages-item"><a className="pages-link" href="#">Cookies</a></li>
+                    <li className="footer-content-pages-item"><a className="pages-link" href="#">Contacts</a></li>
                 </ul>
                 <div className="footer-content-social">
                     <p className="footer-content-social-text"> Our social media:</p>
                     <ul className="footer-content-social-items">
-                        <li className="footer-content-social-item"><ReactSVG src={twitter}/></li>
-                        <li className="footer-content-social-item"><ReactSVG src={linkedin}/></li>
-                        <li className="footer-content-social-item"><ReactSVG src={youtube}/></li>
-                        <li className="footer-content-social-item"><ReactSVG src={ticktock}/></li>
-                        <li className="footer-content-social-item"><ReactSVG src={telegram}/></li>
-                        <li className="footer-content-social-item"><ReactSVG src={vk}/></li>
+                        <li className="footer-content-social-item"><a href="#"><ReactSVG src={twitter}/></a></li>
+                        <li className="footer-content-social-item"><a href="#"><ReactSVG src={linkedin}/></a></li>
+                        <li className="footer-content-social-item"><a href="#"><ReactSVG src={youtube}/></a></li>
+                        <li className="footer-content-social-item"><a href="#"><ReactSVG src={ticktock}/></a></li>
+                        <li className="footer-content-social-item"><a href="#"><ReactSVG src={telegram}/></a></li>
+                        <li className="footer-content-social-item"><a href="#"><ReactSVG src={vk}/></a></li>
                     </ul>
                 </div>
             </div>
