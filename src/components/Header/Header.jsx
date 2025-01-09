@@ -1,6 +1,6 @@
 import "./Header.css";
 import { ReactSVG } from 'react-svg';
-import union from "./../../../public/icons/Union.svg"
+import union from "/icons/Union.svg"
 
 const Header = () => {
     return (
