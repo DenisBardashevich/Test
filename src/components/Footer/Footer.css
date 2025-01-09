@@ -9,11 +9,6 @@
     border-top-left-radius: 64px;
     border-top-right-radius: 64px;
 }
-.pages-link{
-    color: var(--color-text);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
 .footer-content{
     width: 1640px;
     height: 66px;
@@ -42,6 +37,11 @@
     position: relative;
     display: inline-block;
     cursor: pointer;
+}
+.pages-link{
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 .pages-link::after {
     content: '';
