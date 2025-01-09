@@ -97,11 +97,47 @@
 }
 /* Адаптируем под разрешение от 768 до 1024px */
 @media (max-width: 1024px) {
-
+    .footer-content{
+        width: 700px;
+    }
 }
 /* Адаптируем под разрешение от 425 до 768px */
 @media (max-width: 768px) {
-
+    .footer{
+        height: 233px;
+        padding: 20px 24px 30px 24px;
+    }
+    .footer-content{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+    .footer-content-social{
+        align-items: start;
+        height: 55px;
+    }
+    .footer-content-pages-items{
+        display: flex;
+        gap: 4px;
+        height: 108px;
+        flex-direction: column;
+        align-items: start;
+        font-size: 14px;
+    }
+    .footer-content-social-items{
+        justify-content: space-between;
+        width: 100%;
+        gap: 0;
+    }
+    .footer-content-social-item{
+        width: 27px;
+        height: 27px;
+        background-image: url('/socials/social-bg-min.svg');
+    }
+    .footer-content-social-text{
+        font-size: 14px;
+    }
 }
 /* Адаптируем под разрешение до 425px */
 @media (max-width: 425px) {
