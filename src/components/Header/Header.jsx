@@ -1,10 +1,10 @@
 import "./Header.css";
 import { ReactSVG } from 'react-svg';
-import union from "./../../../public/icons/Union.svg"
+import union from "/public/icons/Union.svg"
 
 const Header = () => {
     return (
-        <>
+        
             <header>
                 <div className="header-content">
                     <nav className="header-content__nav">
@@ -26,8 +26,10 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-        </>
+        
     );
 };
 
 export default Header;
+
+
